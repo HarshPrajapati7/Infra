@@ -1,0 +1,14 @@
+{
+  "name": "nlp-query-engine",
+  "version": "1.0.0",
+  "private": true,
+  "description": "NLP-powered query engine for employee data",
+  "workspaces": ["frontend"],
+  "scripts": {
+    "postinstall": "npm install --prefix frontend",
+    "dev": "npm run dev --prefix frontend",
+    "build": "npm run build --prefix frontend",
+    "preview": "npm run preview --prefix frontend",
+    "lint": "npm run lint --prefix frontend"
+  }
+}
